@@ -8,7 +8,6 @@ long duration;
 int distance;
 
 void setup() {
-  // put your setup code here, to run once:
   pinMode(trigger, OUTPUT);
   pinMode(echo, INPUT);
   servo.attach(11);
@@ -17,7 +16,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   digitalWrite(trigger, LOW);
   delayMicroseconds(2);
 
